@@ -1,12 +1,22 @@
-@import 'config';
+@import "config";
+
+@mixin flexCenter($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: space-evenly;
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
 
 .container {
-  display: flex;
-  flex-direction: column;
+  @include flexCenter(column);
   max-width: 50rem;
   padding: 0 1rem;
   margin: 3rem auto 0;
-  justify-content: space-evenly;
 }
 
 .containerWrap {
@@ -43,15 +53,22 @@
   justify-content: space-evenly;
   overflow: hidden;
   list-style-type: none;
-  padding-right: 1rem;
+  padding-right: 3rem;
 
-  a {
+  @include mobile {
+    flex-direction: column;
+  }
+
+  li {
+    @include mobile {
+      margin: 0.2rem;
+    }
     font-size: 1.25rem;
     text-decoration: none;
     color: $primary-color;
   }
 
-  a:hover {
+  li:hover {
     color: $secondary-color;
   }
 }

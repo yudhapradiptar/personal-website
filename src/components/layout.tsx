@@ -25,7 +25,7 @@ const Layout = ({ about, experience, skills, education, contact }) => {
         </header>
         <nav className={styles.navigation}>
           <ul className={styles.navigationRow}>
-            <li className={styles.navigationRow__item}>
+            <li>
               <Link href="/">
                 <a>About</a>
               </Link>

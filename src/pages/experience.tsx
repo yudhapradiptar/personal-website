@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Layout from "../components/layout";
-import styles from "../styles/skills.module.scss";
+import styles from "../styles/experience.module.scss";
 
 const Experience = () => {
   return (
