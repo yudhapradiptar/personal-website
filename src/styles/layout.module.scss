@@ -1,0 +1,57 @@
+@import 'config';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+  padding: 0 1rem;
+  margin: 3rem auto 0;
+  justify-content: space-evenly;
+}
+
+.containerWrap {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.navigation {
+  align-items: center;
+}
+
+.navigationRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+  list-style-type: none;
+  padding-right: 1rem;
+
+  a {
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: $primary-color;
+  }
+
+  a:hover {
+    color: $secondary-color;
+  }
+}
