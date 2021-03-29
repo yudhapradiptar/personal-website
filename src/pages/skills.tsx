@@ -1,11 +1,12 @@
-import Head from "next/head";
 import Layout from "../components/layout";
 import styles from "../styles/skills.module.scss";
+import Footer from "../components/footer";
 
 const Skills = () => {
   return (
     <>
       <Layout title="Skills" />
+      <div className={styles.body}>
       <div className={styles.container}>
         <div className={styles.comp}>
           <h2 className={styles.heading2}>Skills</h2>
@@ -44,6 +45,8 @@ const Skills = () => {
             <li>Bahasa Indonesia</li>
           </ul>
         </div>
+      </div>
+      <Footer />
       </div>
     </>
   );

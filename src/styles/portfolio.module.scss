@@ -20,8 +20,8 @@
   position: relative;
   margin: 2rem 0 1rem;
   align-self: center;
-  height: 270px;
-  width: 480px;
+  max-height: 270px;
+  max-width: 480px;
 
   &__btn {
     position: absolute;

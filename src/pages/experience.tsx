@@ -1,10 +1,12 @@
 import Layout from "../components/layout";
+import Footer from "../components/footer";
 import styles from "../styles/experience.module.scss";
 
 const Experience = () => {
   return (
     <>
       <Layout title="Experience" />
+      <div className={styles.body}>
       <div className={styles.container}>
         <div className={styles.workexp}>
           <h2 className={styles.heading2}>Work Experience</h2>
@@ -87,6 +89,8 @@ const Experience = () => {
             </div>
           </div>
         </div>
+      </div>
+      <Footer />
       </div>
     </>
   );

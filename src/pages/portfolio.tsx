@@ -3,11 +3,13 @@ import Layout from "../components/layout";
 import styles from "../styles/portfolio.module.scss";
 import { FaEye } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
+import Footer from "../components/footer";
 
 const Portfolio = () => {
   return (
     <>
       <Layout title="Portfolio" />
+      <div className={styles.body}>
       <div className={styles.container}>
         <h2 className={styles.heading2}>Portfolio</h2>
         <div className={styles.comp}>
@@ -66,6 +68,8 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+      </div>
+      <Footer />
       </div>
     </>
   );
