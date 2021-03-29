@@ -8,7 +8,7 @@ const Layout = (props) => {
     <div className={styles.container}>
       <div className={styles.containerWrap}>
         <Head>
-          <title>{props.title}</title>
+          <title>{props.title} - Yudha's Website</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <header className={styles.header}>
