@@ -3,11 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/layout.module.scss";
 
-const Layout = ({ about, experience, skills, education, contact }) => {
+const Layout = (props) => {
   return (
     <div className={styles.container}>
       <div className={styles.containerWrap}>
         <Head>
+          <title>{props.title}</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <header className={styles.header}>

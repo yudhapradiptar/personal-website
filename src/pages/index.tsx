@@ -5,15 +5,7 @@ import styles from "../styles/about.module.scss";
 const Index = () => {
   return (
     <>
-      <Layout about>
-        <Head>
-          <title>About</title>
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
-        </Head>
-      </Layout>
+      <Layout title="About" />
       <div className={styles.container}>
         <h2 className={styles.heading}>About Me</h2>
         <p className={styles.paragraph}>

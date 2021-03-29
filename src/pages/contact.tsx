@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div>
       <>
-        <Layout contact>
+        <Layout title="Contact">
           <Head>
             <title>Contact</title>
             <meta

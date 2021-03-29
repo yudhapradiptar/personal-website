@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <div>
       <>
-        <Layout education>
+        <Layout title = "Education">
           <Head>
             <title>Education</title>
             <meta

@@ -5,7 +5,7 @@ import styles from "../styles/skills.module.scss";
 const Skills = () => {
   return (
       <>
-        <Layout skills>
+        <Layout title = "Skills">
           <Head>
             <title>Skills</title>
             <meta
