@@ -1,4 +1,4 @@
-@import 'config';
+@import "config";
 
 .container {
   display: flex;
@@ -14,4 +14,55 @@
   justify-content: space-between;
   font-size: 1rem;
   font-style: italic;
+}
+
+.portoImage {
+  position: relative;
+  margin: 2rem 0 1rem;
+  align-self: center;
+  height: 270px;
+  width: 480px;
+
+  &__btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: $secondary-color;
+  }
+
+  &:hover &__btn {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+  &__overlay {
+    color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    padding-top: 80px;
+
+    &__item {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      align-self: center;
+
+      &:hover {
+        transition: 0.5s ease;
+        color: white;
+      }
+    }
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    letter-spacing: -0.05rem;
+    margin-left: 1rem;
+  }
 }

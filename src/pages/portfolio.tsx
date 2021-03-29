@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Layout from "../components/layout";
 import styles from "../styles/portfolio.module.scss";
+import { FaEye } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
 
 const Portfolio = () => {
   return (
@@ -16,13 +18,14 @@ const Portfolio = () => {
             <p>Group project for course Propensi</p>
             <p>2020</p>
           </div>
-          <div className={styles.comp__image}>
-          <Image
-            src="/images/Post-Operation-Information-System.png"
-            height={270}
-            width={480}
-            alt="Post Production Information System"
-          />
+          <div className={styles.portoImage}>
+            <Image
+              src="/images/Post-Operation-Information-System.png"
+              className={styles.portoImage__image}
+              height={270}
+              width={480}
+              alt="Post Production Information System"
+            />
           </div>
         </div>
         <div className={styles.comp}>
@@ -31,14 +34,36 @@ const Portfolio = () => {
             <p>Group project for course APAP</p>
             <p>2019</p>
           </div>
-          <div className={styles.comp__image}>
-          <Image
+          <div className={styles.portoImage}>
+            <Image
               src="/images/siruangan-apap.png"
+              className={styles.portoImage__image}
               height={270}
               width={480}
               alt="Sistem Informasi Ruangan"
             />
-            <div className={styles.testingHover} style={{color:"red"}}></div>
+            <div className={styles.portoImage__btn}>
+              <div className={styles.portoImage__overlay}>
+                <div
+                  className={styles.portoImage__overlay__item}
+                  onClick={() =>
+                    window.open("https://siruangan-d-10.herokuapp.com")
+                  }
+                >
+                  <FaEye />{" "}
+                  <div className={styles.portoImage__text}>Preview</div>
+                </div>
+                <div
+                  className={styles.portoImage__overlay__item}
+                  onClick={() =>
+                    window.open("https://github.com/yudhapradiptar/TA_D_10")
+                  }
+                >
+                  <AiFillGithub />{" "}
+                  <div className={styles.portoImage__text}>Github</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

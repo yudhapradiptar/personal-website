@@ -1,4 +1,4 @@
-@import 'config';
+@import "config";
 
 .container {
   display: flex;
@@ -10,17 +10,17 @@
   font-size: 2rem;
 
   &__item {
-      display: flex;
-      flex-direction: row;
-      margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
 
-      &__linkedin {
-          cursor: pointer;
-      }
+    &__linkedin {
+      cursor: pointer;
+    }
+    
   }
 
   .heading3 {
-      margin-left: 2rem;
+    margin-left: 2rem;
   }
-
 }
