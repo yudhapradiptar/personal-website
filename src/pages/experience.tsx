@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Layout from "../components/layout";
 import styles from "../styles/experience.module.scss";
 
@@ -49,9 +48,9 @@ const Experience = () => {
         </div>
         <div className={styles.otherexp}>
           <h2 className={styles.heading2}>Other Experience</h2>
-          <div className={styles.exp}>
+          <div className={styles.comp}>
             <div className={styles.heading3}>
-              Post Product Operation Information System
+              Payfazz's Post Product Operation Information System
             </div>
             <div className={styles.jobTitleRow}>
               <p>Lead Programmer</p>
@@ -66,21 +65,21 @@ const Experience = () => {
               <li>Building the Information System based on System Proposal</li>
             </ul>
           </div>
-          <div className={styles.exp}>
+          <div className={styles.comp}>
             <div className={styles.heading3}>Compfest XI</div>
             <div className={styles.jobTitleRow}>
               <p>Partnership Staff of Innovative Application Competition</p>
               <p>2019 - 2019</p>
             </div>
           </div>
-          <div className={styles.exp}>
+          <div className={styles.comp}>
             <div className={styles.heading3}>Pemira Fasilkom UI</div>
             <div className={styles.jobTitleRow}>
               <p>Voting Staff</p>
               <p>2018 - 2018</p>
             </div>
           </div>
-          <div className={styles.exp}>
+          <div className={styles.comp}>
             <div className={styles.heading3}>Wisuda Fasilkom UI</div>
             <div className={styles.jobTitleRow}>
               <p>Documentation Staff</p>

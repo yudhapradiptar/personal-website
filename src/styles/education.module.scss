@@ -1,0 +1,17 @@
+@import 'config';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 70rem;
+  padding: 0 1rem;
+  margin: 0 auto 6rem;
+}
+
+.jobTitleRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-style: italic;
+}

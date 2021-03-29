@@ -25,6 +25,7 @@ const Skills = () => {
                 <li>React.js</li>
                 <li>Next.js</li>
                 <li>Springboot</li>
+                <li>React Native</li>
                 <li>Django</li>
               </ul>
             </div>
