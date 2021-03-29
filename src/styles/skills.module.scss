@@ -1,17 +1,18 @@
+@import 'config';
+
 .container {
+  display: flex;
+  flex-direction: column;
+  max-width: 70rem;
+  padding: 0 1rem;
+  margin: 0 auto 6rem;
+}
+
+.category {
     display: flex;
-    flex-direction: column;
-    max-width: 70rem;
-    padding: 0 1rem;
-    margin: 0 auto 6rem;
-  }
-  
-  .heading {
-      font-size: 1.5rem;
-  }
-  
-  .paragraph {
-      font-size: 1rem;
-      
-  }
-  
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+

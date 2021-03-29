@@ -9,7 +9,7 @@ const Experience = () => {
       <div className={styles.container}>
         <div className={styles.workexp}>
           <h2 className={styles.heading2}>Work Experience</h2>
-          <div className={styles.exp}>
+          <div className={styles.comp}>
             <div className={styles.heading3}>Sayurbox</div>
             <div className={styles.jobTitleRow}>
               <p>Software Development Engineer Intern</p>
@@ -25,7 +25,7 @@ const Experience = () => {
               </li>
             </ul>
           </div>
-          <div className={styles.exp}>
+          <div className={styles.comp}>
             <div className={styles.heading3}>DesktopIP</div>
             <div className={styles.jobTitleRow}>
               <p>ERP Consultant Intern</p>

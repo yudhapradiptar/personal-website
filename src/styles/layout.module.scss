@@ -66,9 +66,9 @@
     font-size: 1.25rem;
     text-decoration: none;
     color: $primary-color;
-  }
 
-  li:hover {
-    color: $secondary-color;
+    &:hover {
+      color: $secondary-color;
+    }
   }
 }

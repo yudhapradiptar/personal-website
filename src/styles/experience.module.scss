@@ -8,23 +8,10 @@
   margin: 0 auto 6rem;
 }
 
-.exp {
+.jobTitleRow {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 15px;
-
-  .jobTitleRow {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 1rem;
-    font-style: italic;
-  }
-
-  ul {
-    margin-top: 0;
-    line-height: 1.5;
-  }
-
-
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-style: italic;
 }

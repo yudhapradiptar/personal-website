@@ -18,4 +18,15 @@ $secondary-color: #a29c9b;
   line-height: 1.5;
 }
 
+.comp {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+
+  ul {
+    margin-top: 0;
+    line-height: 1.5;
+  }
+}
+
 $mobile: 800px;
