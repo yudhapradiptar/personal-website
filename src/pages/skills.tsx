@@ -1,11 +1,11 @@
-import Layout from "../components/layout";
+import Header from "../components/header";
 import styles from "../styles/skills.module.scss";
 import Footer from "../components/footer";
 
 const Skills = () => {
   return (
     <>
-      <Layout title="Skills" />
+      <Header title="Skills" />
       <div className={styles.body}>
       <div className={styles.container}>
         <div className={styles.comp}>

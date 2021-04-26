@@ -1,5 +1,6 @@
-import Image from "next/image";
 import Layout from "../components/layout";
+import Image from "next/image";
+import Header from "../components/header";
 import styles from "../styles/portfolio.module.scss";
 import { FaEye } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
@@ -8,7 +9,7 @@ import Footer from "../components/footer";
 const Portfolio = () => {
   return (
     <>
-      <Layout title="Portfolio" />
+      <Header title="Portfolio" />
       <div className={styles.body}>
       <div className={styles.container}>
         <h2 className={styles.heading2}>Portfolio</h2>

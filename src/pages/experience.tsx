@@ -1,11 +1,12 @@
 import Layout from "../components/layout";
+import Header from "../components/header";
 import Footer from "../components/footer";
 import styles from "../styles/experience.module.scss";
 
 const Experience = () => {
   return (
     <>
-      <Layout title="Experience" />
+      <Header title="Experience" />
       <div className={styles.body}>
       <div className={styles.container}>
         <div className={styles.workexp}>

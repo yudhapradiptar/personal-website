@@ -72,3 +72,38 @@
     }
   }
 }
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $secondary-color;
+
+  &__icons {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    
+    :hover {
+      color: $primary-color;
+    }
+
+    &__item {
+      margin-right: 2rem;
+      cursor: pointer;
+    }
+
+    &__itemLast {
+      margin-right: 2rem;
+      cursor: pointer;
+    }
+  }
+
+  &__copyright {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}
